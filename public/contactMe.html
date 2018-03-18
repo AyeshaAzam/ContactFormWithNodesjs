@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Me</title>
+    <meta charset="utf-8" />
+    <!--for Responsive webssite / with different device screens-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- link contains actual path to css -->
+    <link rel="stylesheet" type="text/css" href="./public/css/responsiv.css" media="screen">
+
+    <!-- Internal css style
+    <style>
+       body{background: skyblue; font-family: sans-serif; color: #fff; padding: 30px; }
+    </style>
+    -->
+  </head>
+
+  <body>
+    <div id="containerDiv">
+     <form action="/" method="POST">
+       <header>
+        <img src="images/node-Logo.png" alt="nodejs-logo" />
+       <h2>Please fill all your information </h2>
+      </header>
+       <label for="name"><b>Your name: </b></label><br />
+       <input class="mywidth" type="text" name="name" value="" placeholder="username" required/><br />
+       <label for="email"><b>Email Id:</b></label><br />
+       <input  class="mywidth" type="text" name="email" value="" placeholder="Example@gmail.com" required/><br />
+       <label for="tel"><b>Contact Number:</b></label><br />
+       <input class="mywidth" type="text" name="tel" value="" placeholder="1234567890"/><br />
+       <label for="address"><b>Your Country:</b></label><br />
+       <input class="mywidth" type="text" name="address" value="" /><br />
+       <label for="mesg"><b>Enter any message: </b></label><br />
+       <textarea  class="mywidth" name="mesg" placeholder="Remember, be nice!" rows="10"> </textarea><br><br>
+       <button>Submit</button>
+     </form>
+   </div>
+
+  </body>
+</html>
